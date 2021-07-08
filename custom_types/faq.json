@@ -1,0 +1,64 @@
+{
+  "Main" : {
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "title"
+      }
+    },
+    "subtitle" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "subtitle"
+      }
+    },
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : {
+          "categorie" : [ {
+            "name" : "cat",
+            "display" : "cat"
+          } ]
+        },
+        "choices" : {
+          "categorie" : {
+            "type" : "Slice",
+            "fieldset" : "categorie",
+            "description" : "bonjour",
+            "icon" : "face",
+            "display" : "list",
+            "non-repeat" : {
+              "categorie" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label" : "categorie"
+                }
+              }
+            },
+            "repeat" : {
+              "question" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "strong, em, hyperlink",
+                  "label" : "question"
+                }
+              },
+              "response" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label" : "response"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

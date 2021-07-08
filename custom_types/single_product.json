@@ -1,0 +1,85 @@
+{
+  "Main" : {
+    "previous_button" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "previous_button"
+      }
+    },
+    "choose_button" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "choose_button"
+      }
+    },
+    "display_associations" : {
+      "type" : "Boolean",
+      "config" : {
+        "placeholder_false" : "Hide",
+        "placeholder_true" : "Show",
+        "default_value" : false,
+        "label" : "Display associations"
+      }
+    },
+    "association_text" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,o-list-item,rtl",
+        "allowTargetBlank" : true,
+        "label" : "Association text"
+      }
+    },
+    "days_or_month_price" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "days_or_month_price"
+      }
+    },
+    "sold_out" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label" : "sold out"
+      }
+    },
+    "bottom_menu_links" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "name" : {
+            "type" : "StructuredText",
+            "config" : {
+              "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+              "label" : "name"
+            }
+          },
+          "link" : {
+            "type" : "Link",
+            "config" : {
+              "allowTargetBlank" : true,
+              "label" : "link"
+            }
+          }
+        },
+        "label" : "bottom menu links"
+      }
+    },
+    "try_out_button" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label" : "try_out_button"
+      }
+    },
+    "try_out_tooltip" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label" : "try out tooltip"
+      }
+    }
+  }
+}

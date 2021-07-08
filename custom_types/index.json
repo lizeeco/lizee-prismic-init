@@ -1,0 +1,122 @@
+[
+    {
+        "id": "account",
+        "name": "Account",
+        "repeatable": false,
+        "value": "account.json"
+    },
+    {
+        "id": "banner",
+        "name": "Banner",
+        "repeatable": false,
+        "value": "banner.json"
+    },
+    {
+        "id": "basket",
+        "name": "Basket",
+        "repeatable": false,
+        "value": "basket.json"
+    },
+    {
+        "id": "confirmation",
+        "name": "Confirmation",
+        "repeatable": false,
+        "value": "confirmation.json"
+    },
+    {
+        "id": "faq",
+        "name": "FAQ",
+        "repeatable": false,
+        "value": "faq.json"
+    },
+    {
+        "id": "funnel",
+        "name": "Funnel",
+        "repeatable": false,
+        "value": "funnel.json"
+    },
+    {
+        "id": "general",
+        "name": "General",
+        "repeatable": false,
+        "value": "general.json"
+    },
+    {
+        "id": "homepage",
+        "name": "HomePage",
+        "repeatable": false,
+        "value": "homepage.json"
+    },
+    {
+        "id": "instagramwall",
+        "name": "InstagramWall",
+        "repeatable": false,
+        "value": "instagramwall.json"
+    },
+    {
+        "id": "classic_subscription_spec",
+        "name": "Classic subscription spec",
+        "repeatable": false,
+        "value": "classic_subscription_spec.json"
+    },
+    {
+        "id": "emails",
+        "name": "Emails",
+        "repeatable": false,
+        "value": "emails.json"
+    },
+    {
+        "id": "packs",
+        "name": "Packs",
+        "repeatable": false,
+        "value": "packs.json"
+    },
+    {
+        "id": "products_to_buy",
+        "name": "Products to buy",
+        "repeatable": true,
+        "value": "products_to_buy.json"
+    },
+    {
+        "id": "shop",
+        "name": "Shop",
+        "repeatable": false,
+        "value": "shop.json"
+    },
+    {
+        "id": "single_product",
+        "name": "Single Product",
+        "repeatable": false,
+        "value": "single_product.json"
+    },
+    {
+        "id": "statements",
+        "name": "Statements",
+        "repeatable": false,
+        "value": "statements.json"
+    },
+    {
+        "id": "pages",
+        "name": "Pages",
+        "repeatable": true,
+        "value": "pages.json"
+    },
+    {
+        "id": "customer_survey",
+        "name": "Customer Survey",
+        "repeatable": false,
+        "value": "customer_survey.json"
+    },
+    {
+        "id": "subscription_order",
+        "name": "Subscription Order",
+        "repeatable": false,
+        "value": "subscription_order.json"
+    },
+    {
+        "id": "contact_form",
+        "name": "Contact Form",
+        "repeatable": false,
+        "value": "contact_form.json"
+    }
+]
