@@ -75,7 +75,7 @@
         "id": "products_to_buy",
         "name": "Products to buy",
         "repeatable": true,
-        "value": "products_to_buy.json"
+        "value": "productstobuy.json"
     },
     {
         "id": "shop",
